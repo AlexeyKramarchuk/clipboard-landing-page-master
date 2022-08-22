@@ -25,6 +25,7 @@ $grayish-blue: hsl(201, 11%, 66%);
        color: $grayish-blue;
     }
     .header-logo {
+        width: 100%;
         min-height: 200px;
         background: url("../images/bg-header-mobile.png") center center/cover no-repeat;
         display: flex;

@@ -18,6 +18,7 @@ body {
   color: hsl(201deg, 11%, 66%);
 }
 .container .header-logo {
+  width: 100%;
   min-height: 200px;
   background: url("../images/bg-header-mobile.png") center center/cover no-repeat;
   display: flex;
