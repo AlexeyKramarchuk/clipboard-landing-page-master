@@ -12,6 +12,10 @@ body {
 .container {
   margin: auto;
   width: 300px;
+  text-align: center;
+}
+.container p {
+  color: hsl(201deg, 11%, 66%);
 }
 .container .header-logo {
   min-height: 200px;
@@ -23,8 +27,106 @@ body {
 .container .header-logo .logo-img {
   display: block;
   margin: 0 auto;
-  width: 130px;
+  width: 150px;
   padding: 20px;
+}
+.container .promo,
+.container .download {
+  margin-top: 100px;
+}
+.container .promo-header,
+.container .download-header {
+  font-size: 30px;
+}
+.container .promo-text,
+.container .download-text {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.container .promo .btns,
+.container .download .btns {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .promo .btns button,
+.container .download .btns button {
+  padding: 18px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+.container .promo .btns .btn-ios,
+.container .download .btns .btn-ios {
+  background-color: hsl(171deg, 66%, 44%);
+}
+.container .promo .btns .btn-mac,
+.container .download .btns .btn-mac {
+  background-color: hsl(233deg, 100%, 69%);
+}
+.container .track {
+  margin-top: 150px;
+}
+.container .track-text {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container .track .pc-logo {
+  margin-top: 30px;
+  width: 90%;
+}
+.container .track .possibility {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .track .possibility p {
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.container .access {
+  margin-top: 150px;
+}
+.container .access-text {
+  margin-top: 20px;
+}
+.container .access .devices {
+  margin-top: 20px;
+  width: 90%;
+}
+.container .benefits {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.container .partners {
+  margin: auto;
+  width: 50%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.container .main-footer {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: grayish-blue;
+}
+.container .main-footer .footer-logo {
+  width: 50px;
+}
+.container .main-footer .footer-menu {
+  margin-top: 30px;
+  line-height: 2.5;
+}
+.container .main-footer .footer-menu .menu {
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=style.css.map */

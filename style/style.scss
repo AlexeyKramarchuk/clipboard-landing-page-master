@@ -20,6 +20,10 @@ $grayish-blue: hsl(201, 11%, 66%);
 .container {
     margin: auto;
     width: 300px;
+    text-align: center;
+    p {
+       color: $grayish-blue;
+    }
     .header-logo {
         min-height: 200px;
         background: url("../images/bg-header-mobile.png") center center/cover no-repeat;
@@ -29,10 +33,102 @@ $grayish-blue: hsl(201, 11%, 66%);
         .logo-img {
             display: block;
             margin: 0 auto;
-            width: 130px;
+            width: 150px;
             padding: 20px;
-            
         }
       }
+    .promo,
+    .download {
+        margin-top: 100px;
+        &-header {
+            font-size: 30px;
+        }
+        &-text {
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .btns {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            button {
+                padding: 18px;
+                border-radius: 30px;
+                font-size: 20px;
+                color: #fff;
+            }
+            .btn-ios {
+                background-color: $strong-cyan;
+            }
+            .btn-mac {
+                background-color: $light-blue;
+            }
+        }
+      }
+    .track {
+        margin-top: 150px;
+        &-text {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .pc-logo {
+            margin-top: 30px;
+            width: 90%;
+        }
+        .possibility {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            p {
+                margin-top: 20px;
+                line-height: 1.5;
+                font-size: 16px;
+            }
+        }
+    }
+    .access {
+        margin-top: 150px;
+        &-text {
+            margin-top: 20px;
+        }
+        .devices {
+            margin-top: 20px;
+            width: 90%;
+        }
+    }
+    .benefits {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .partners {
+        margin: auto;
+        width: 50%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .main-footer {
+        margin-top: 100px;
+        padding: 20px;
+        background-color: grayish-blue;
+        .footer-logo {
+            width: 50px;
+        }
+        .footer-menu {
+            margin-top: 30px;
+            line-height: 2.5;
+            .menu {
+                list-style-type: none;
+            }
+        }
+    }
+      
 }
   
