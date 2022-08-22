@@ -1,0 +1,38 @@
+// sass --watch ./style/style.scss ./style/style.css
+
+$strong-cyan: hsl(171, 66%, 44%);
+$light-blue: hsl(233, 100%, 69%);
+$dark-grayish-blue: hsl(210, 10%, 33%);
+$grayish-blue: hsl(201, 11%, 66%);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+  }
+
+.container {
+    margin: auto;
+    width: 300px;
+    .header-logo {
+        min-height: 200px;
+        background: url("../images/bg-header-mobile.png") center center/cover no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        .logo-img {
+            display: block;
+            margin: 0 auto;
+            width: 130px;
+            padding: 20px;
+            
+        }
+      }
+}
+  
