@@ -56,7 +56,7 @@ body {
 .container .download .btns button {
   padding: 18px;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
 }
 .container .promo .btns .btn-ios,
@@ -117,7 +117,7 @@ body {
 .container .main-footer {
   margin-top: 100px;
   padding: 20px;
-  background-color: grayish-blue;
+  background-color: #FFFAFA;
 }
 .container .main-footer .footer-logo {
   width: 50px;
@@ -128,6 +128,123 @@ body {
 }
 .container .main-footer .footer-menu .menu {
   list-style-type: none;
+}
+.container .main-footer .social-logo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.container .main-footer .social-logo .logo {
+  width: 50px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1440px;
+    margin: auto;
+    text-align: center;
+  }
+  .container .header-logo {
+    width: 100%;
+    min-height: 250px;
+    background: url("../images/bg-header-desktop.png") center center/cover no-repeat;
+  }
+  .container .header-logo .logo-img {
+    margin: 0 auto;
+    width: 170px;
+  }
+  .container .promo,
+.container .download {
+    margin-top: 20px;
+  }
+  .container .promo-header,
+.container .download-header {
+    font-size: 40px;
+  }
+  .container .promo-text,
+.container .download-text {
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .container .promo .btns,
+.container .download .btns {
+    margin: auto;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container .promo .btns button,
+.container .download .btns button {
+    padding: 14px;
+    width: 235px;
+    font-size: 16px;
+  }
+  .container .track-text {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 18px;
+  }
+  .container .track-content {
+    display: flex;
+  }
+  .container .track-content .pc-logo {
+    width: 40%;
+  }
+  .container .track-content .possibility {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 100px;
+    width: 400px;
+  }
+  .container .access {
+    font-size: 22px;
+  }
+  .container .access-text {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 18px;
+  }
+  .container .access .devices {
+    margin-top: 40px;
+    width: 50%;
+  }
+  .container .benefits-row {
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr 1fr 150px;
+    grid-template-rows: 300px;
+  }
+  .container .benefits-row .first {
+    grid-column: 2/3;
+  }
+  .container .benefits-row .second {
+    grid-column: 3/4;
+  }
+  .container .benefits-row .third {
+    grid-column: 4/5;
+  }
+  .container .benefits-row .benefits-logo {
+    padding: 30px;
+  }
+  .container .partners {
+    margin-top: 0;
+    width: 70%;
+    padding: 20px;
+    flex-direction: row;
+  }
+  .container .download {
+    margin-top: 100px;
+  }
+  .container .main-footer {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 200px 150px 150px 150px 1fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
