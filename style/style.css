@@ -240,10 +240,37 @@ body {
   .container .download {
     margin-top: 100px;
   }
-  .container .main-footer {
-    height: 200px;
+  .container .footer-content {
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container .footer-content .menu {
+    text-align: left;
     display: grid;
-    grid-template-columns: 200px 150px 150px 150px 1fr;
+    grid-template-columns: repeat(4, 150px);
+  }
+  .container .footer-content .menu .one {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .container .footer-content .menu .two {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .container .footer-content .menu .three {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .container .footer-content .menu .four {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .container .footer-content .menu .five {
+    grid-column: 3/4;
+    grid-row: 1/2;
   }
 }
 

@@ -239,10 +239,37 @@ $cornsilk: #FFFAFA;
         .download {
             margin-top: 100px;
         }
-        .main-footer {
-            height: 200px;
-            display: grid;
-            grid-template-columns: 200px 150px 150px 150px 1fr;
+        .footer-content {
+            margin: auto;
+            height: 150px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .menu {
+                text-align: left;
+                display: grid;
+                grid-template-columns: repeat(4, 150px);
+                .one {
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+                }
+                .two {
+                    grid-column: 1/2;
+                    grid-row: 2/3;
+                }
+                .three {
+                    grid-column: 2/3;
+                    grid-row: 1/2;
+                }
+                .four {
+                    grid-column: 2/3;
+                    grid-row: 2/3;
+                }
+                .five {
+                    grid-column: 3/4;
+                    grid-row: 1/2;
+                }
+            }
         }
     }
 }
