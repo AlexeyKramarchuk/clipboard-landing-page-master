@@ -79,6 +79,7 @@ $cornsilk: #FFFAFA;
         .pc-logo {
             margin-top: 30px;
             width: 90%;
+            position: absolute;
         }
         .possibility {
             margin-top: 40px;
@@ -189,14 +190,17 @@ $cornsilk: #FFFAFA;
             font-size: 18px;  
         }
         .track-content {
+            position: relative;
             display: flex;
             .pc-logo {
-                width: 40%;
+                position: absolute;
+                left: -170px;
+                width: 50%;
             } 
             .possibility {
                 text-align: left;
                 font-size: 15px;
-                margin-left: 100px;
+                margin-left: 600px;
                 width: 400px;
             }
         }
